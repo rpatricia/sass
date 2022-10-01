@@ -1,3 +1,5 @@
+@import '../abstract/variaveis';
+
 nav {
     text-align: center;
     ul {
@@ -8,6 +10,10 @@ nav {
                 text-transform: uppercase;
                 text-decoration: none;
                 font-weight: bold;
+                color: $primary-color;
+                &:hover {
+                    border-bottom: 2px solid $secondary-color;
+                }
             }
         }
     }
