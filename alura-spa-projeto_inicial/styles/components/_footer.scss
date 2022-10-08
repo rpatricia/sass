@@ -10,6 +10,8 @@ footer {
   border-top: 2px solid $primary-color;
   margin-top: 1rem;
   padding: 1.2rem;
+  background-color: $tertiary-color;
+  // background: linear-gradient(pryprima-color, secondary-color,tertiary-color);
 
   @mixin bg-cores($cores...) {
     background: linear-gradient(to left, $cores, $primary-color,$secondary-color,$tertiary-color );
